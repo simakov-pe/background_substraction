@@ -124,6 +124,8 @@ void comparison(string path, string name_algorythm, int number_start, int number
 
 int main(int argc, char** argv)
 {	
+	
+	//file structure: path - folder with subfolder "gt" (groundtruth) and subfolders "mog2", "vibe" etc.
 	string path = "D:/DATASET_NEW_/vid4/";
 	std::vector<string> algorythms { "dpprati", "mog2", "multicue",
 									"pawcs", "pbas", "subsense",
